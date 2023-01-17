@@ -14,5 +14,28 @@ body{
   min-height: 100vh;
   font-family: sans-serif, Poppins;
   background: #efefef;
+  display: flex;
+  justify-content: center;
 }
-
+.container{
+  position:relative ;
+  background: #fff;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  filter: drop-shadow(0 0 10px    rgb(0,0,0,0.5));
+}
+.accordion{
+  position:relative;
+  width: 350px;
+  margin-left: 40px;
+}
+.title{
+  margin-top: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+.accordion-img{
+  position: relative;
+  width: 320px;
+}
