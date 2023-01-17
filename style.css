@@ -35,7 +35,28 @@ body{
   font-size: 2rem;
   text-align: center;
 }
+
+.content-accordion{
+  margin-top: 35px;
+  margin-right: 50px;
+}
+.question{
+  display: flex;
+  justify-content: space-between;
+}
 .accordion-img{
   position: relative;
   width: 320px;
+}
+.title-question{
+  margin: 1.4rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+.question-btn{
+   font-size: 1.5rem;
+   background: transparent;
+   border-color: transparent;
+   cursor: pointer;
 }
