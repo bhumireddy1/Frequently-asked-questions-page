@@ -40,6 +40,10 @@ body{
   margin-top: 35px;
   margin-right: 50px;
 }
+.question-answer{
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
 .question{
   display: flex;
   justify-content: space-between;
@@ -60,3 +64,34 @@ body{
    border-color: transparent;
    cursor: pointer;
 }
+.up-icon{
+  display: none;
+}
+.answer{
+  font-size: 1.2rem;
+  line-height: 1.8;
+  display: none;
+}
+@media screen and (min-width:992px){
+  .accordion{
+    width: 920px;
+    height: 0;
+    display: flex;
+  }
+  .accordion-img{
+    position: relative;
+    width: 420px;
+    top: 88px;
+  }
+  .question-answer{
+    width: 380px;
+  }
+  .content-accordion{
+    margin-top: 85px;
+  }
+.title{
+   margin-top: 50px;
+   font-size: 3rem; 
+}
+}
+
