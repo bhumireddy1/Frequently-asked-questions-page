@@ -72,6 +72,15 @@ body{
   line-height: 1.8;
   display: none;
 }
+.show-text .answer{
+  display: block;
+}
+.show-text .up-icon{
+  display: inline;
+}
+.show-text .down-icon{
+  display: none;
+}
 @media screen and (min-width:992px){
   .accordion{
     width: 920px;
